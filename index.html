@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio Website</title>
+    <title>AKx5 Portfolio</title>
 </head>
 <body>
     <header>
-        <a href="#" class="logo"></a>
-
+        <a href="#" class="logo">AKx5</a>
         <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#" >Services</a>
-            <a href="#" >Skills</a>
-            <a href="#" >Education</a>
-            <a href="#" >Experience</a>
-            <a href="#" >Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
+
+    <section id="home" class="home">
         <div class="home-img">
-            <img src="main.jpg" alt="">
+            <img src="main.jpg" alt="AKx5 Profile Picture">
         </div>
         <div class="home-content">
             <h1>Hi, It's <span>AKx5!</span></h1>
             <h3 class="typing-text">I'm a <span></span></h3>
-            <p>I'm A Web, Mc Plugin & Discord Bots Developer! I Have Some Big Projects In And Out Of Israel! Such As: Animeil AnimeBlood. & Discord Bot For The Discord Community In & Out Off Israel </p>
+            <p>I'm a Web, MC Plugin & Discord Bots Developer! I have some big projects in and out of Israel, such as Animeil AnimeBlood & Discord Bot for the Discord community in & out of Israel.</p>
             <div class="social-icons">
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#"><i class="fa-brands fa-github"></i></a>
@@ -38,5 +36,110 @@
             <a href="https://discord.com/users/795555714797273098" class="btn">Contact me</a>
         </div>
     </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">My Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Custom websites tailored to your needs</p>
+            </div>
+            <div class="service-box">
+                <i class="fab fa-discord"></i>
+                <h3>Discord Bot Development</h3>
+                <p>Powerful bots for your Discord community</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-cubes"></i>
+                <h3>Minecraft Plugin Development</h3>
+                <p>Custom plugins to enhance your Minecraft server</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>HTML/CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h3>Java</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">My Experience</h2>
+        <div class="experience-container">
+            <div class="experience-box">
+                <h3>Web Developer</h3>
+                <p>Freelance | 2019 - Present</p>
+                <ul>
+                    <li>Developed responsive websites for various clients</li>
+                    <li>Implemented modern web technologies and best practices</li>
+                </ul>
+            </div>
+            <div class="experience-box">
+                <h3>Discord Bot Developer</h3>
+                <p>Open Source Projects | 2020 - Present</p>
+                <ul>
+                    <li>Created popular Discord bots for anime communities</li>
+                    <li>Implemented advanced features and moderation tools</li>
+                </ul>
+            </div>
+            <div class="experience-box">
+                <h3>Minecraft Plugin Developer</h3>
+                <p>Various Servers | 2018 - Present</p>
+                <ul>
+                    <li>Developed custom plugins for popular Minecraft servers</li>
+                    <li>Optimized server performance and user experience</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>example@email.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+1 234 567 8900</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
-</html>
