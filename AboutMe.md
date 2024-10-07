@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @AKx5!
+- 👀 I’m interested in Java, Python, Html etc.
+- 🌱 I’m currently learning C++
+- 📫 How to reach me? Via Discord UserName - AKx5_ 
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: I'm Working On My Profilito Right Now! Will Be Published Soon!
