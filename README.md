@@ -1,7 +1,7 @@
 <img src="banner_github.png" alt="GitHub Banner" width="100%" />
 
-# Hello World!, I'm Tobi, a German Web Developer 👋🏼:
-🛜 currently working on my own [Cynex-Bot](https://discord.gg/eGpmNZnuZm)<br>👨🏼‍🎓 Learning new coding leng! <br>👨🏼‍💻 working as a Discord bot developer since 2021 </i>
+# Hello Everyone!!, I'm AKx5, A Discord bot & Web Developer 👋🏼:
+🛜 currently working on [Cynex-Bot](https://discord.gg/eGpmNZnuZm)<br>👨🏼‍🎓 Learning new coding leng! <br>👨🏼‍💻 working as a Discord bot developer since 2021 </i>
 
 
 # 💻 Tech Stack:
