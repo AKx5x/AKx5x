@@ -1,4 +1,4 @@
-<img src="Banner.jpg" alt="GitHub Banner" width="100%" />
+<img src="Banner.gif" alt="GitHub Banner" width="100%" />
 
 # Hello Everyone!!, I'm AKx5, A Discord bot & Web Developer 👋🏼:
 🛜 currently working on [Cynex-Bot](https://discord.gg/eGpmNZnuZm)<br>👨🏼‍🎓 Learning new coding leng! <br>👨🏼‍💻 working as a Discord bot developer since 2021 </i>
